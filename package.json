@@ -1,0 +1,27 @@
+{
+  "name": "challengue-creditu-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon ./src/index.js localhost 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dortizp/challengue-Creditu-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dortizp/challengue-Creditu-Backend/issues"
+  },
+  "homepage": "https://github.com/dortizp/challengue-Creditu-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.5",
+    "sequelize-cli": "^6.3.0"
+  }
+}
